@@ -8,5 +8,9 @@
 #SBATCH --export=NONE
 
 # print compute node host name
-hostname
-
+for i in $(seq 1 20); do
+   sleep 5s
+   date
+   echo "The hostname is:"
+   hostname
+done
