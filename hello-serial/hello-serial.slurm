@@ -8,7 +8,7 @@
 #SBATCH --export=NONE
 
 # load modules
-module load python/3.6.3
+module load cray-python 
 
 # launch serial python script
 python3 hello-serial.py

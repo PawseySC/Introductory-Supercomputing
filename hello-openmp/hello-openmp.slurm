@@ -13,4 +13,4 @@ export OMP_PLACES=cores
 export OMP_PROC_BIND=close
 
 # launch OpenMP program
-srun --export=all -n 1 -c ${OMP_NUM_THREADS} ./hello-openmp-gcc
+srun --export=all -n 1 -c ${OMP_NUM_THREADS} ./hello-openmp
